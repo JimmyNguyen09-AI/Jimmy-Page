@@ -16,7 +16,9 @@
     scroll-behavior: smooth; 
   }
 :root {
-    --color-one: #f39c12;
+    --color-one: #e96704;
     --color-two: #555;
+    --border-color: rgba(246, 145, 37, 0.5);
 }
+
 
