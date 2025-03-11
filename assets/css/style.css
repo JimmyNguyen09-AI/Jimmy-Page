@@ -78,9 +78,9 @@ section {
   min-height: 100vh;
 }
 @keyframes blink-underline {
-  0% { box-shadow: 0px 5px 10px rgba(243, 123, 38, 0.5); }
-  50% { box-shadow: 0px 5px 20px rgba(221, 109, 11, 0.8); }
-  100% { box-shadow: 0px 5px 10px rgba(234, 135, 6, 0.5); }
+  0% { box-shadow: 0px 4px 8px rgba(47, 235, 72, 0.5); }
+  50% { box-shadow: 0px 4px 15px rgba(249, 247, 248, 0.8); }
+  100% { box-shadow: 0px 4px 8px rgba(25, 238, 78, 0.5); }
 }
 /* HOME */
 #home {

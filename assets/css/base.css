@@ -7,18 +7,19 @@
   }
 
   body {
+    margin-top: 10px;
     font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
     background: linear-gradient(120deg, #111, #333);
     color: #fff; 
     overflow:hidden;
     scroll-behavior: smooth; 
   }
 :root {
-    --color-one: #e96704;
+    --color-one: #55C94B;
     --color-two: #555;
-    --border-color: rgba(246, 145, 37, 0.5);
+    --border-color: #55C94B;
 }
 
 
