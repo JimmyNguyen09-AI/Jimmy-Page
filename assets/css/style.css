@@ -84,6 +84,7 @@ section {
 }
 /* HOME */
 #home {
+  
   box-shadow: 0px 5px 10px var(--border-color);
   animation: blink-underline 4s infinite alternate;
   display: flex;
@@ -126,6 +127,61 @@ section {
   padding-bottom: 2px;
   border-radius: 5px;
 }
+/* ABOUT ME */
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.btn-more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  background: var(--color-one);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+  animation: btn-bounce 1.5s infinite ease-in-out;
+}
+@keyframes btn-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.btn-more i {
+  margin-left: 10px;
+  font-size: 18px;
+  transition: transform 0.3s;
+}
+
+.btn-more:hover {
+  background: #27ae60;
+  transform: scale(1.15);
+}
+
+.btn-more:hover i {
+  transform: translateY(15px);
+}
+
+.scroll-down {
+  font-size: 24px;
+  margin-top: 15px;
+  color: var(--color-one);
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+
 
 /* SKILLS */
 #skills {
@@ -368,17 +424,18 @@ footer p {
 @media screen and (max-width: 440px) {
   section {
     padding: 20px 50px;
-    min-height: 60vh;
+    min-height: 100vh;
   }
   .logo {
-    font-size: 12px;
+    font-size: 20px;
   }
   nav a {
-   font-size: 12px;
+   font-size: 18px;
   }
   header {
-    padding: 5px 12px;
+    padding: 5px 10px;
     border-radius: 30px;
+    flex-direction: column;
   }
   #projects {
     max-width: 800px;
@@ -402,7 +459,7 @@ footer p {
     transition: transform 0.3s;
   }
   .project img {
-    height: 180px;
+    height: 200px;
     object-fit: cover;
   }
   
@@ -438,7 +495,7 @@ footer p {
 
   }
   #home .intro {
-    max-width: 800px;
+    max-width: 1000px;
     flex: 1;
 
   }
@@ -449,13 +506,13 @@ footer p {
   }
   
   #home .intro p {
-    line-height: 1.6;
+    line-height: 2.5;
     font-size: 12px;
   }
 
   .profile-pic{
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
       margin: 0 auto;
       display: block;
 

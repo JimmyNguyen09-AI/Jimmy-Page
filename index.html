@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jimmy Nguyen</title>
   <link rel="icon" type="image/png" sizes="64x64" href="assets/images/logoweb.jpg">
+  <link rel="stylesheet" href="assets/css/animate.css">
   <link 
     rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -37,7 +38,7 @@
         class="profile-pic"
       >
       <div class="home_intro">
-      <h1>Hello, I'm <span class="accent">Thanh Nguyen (Jimmy)</span></h1>
+      <h1>Hello, I'm <span class="accent wow bounce">Thanh Nguyen (Jimmy)</span></h1>
       <p>
         Hello 👋, my name is Thanh (Jimmy), an Australian student with Vietnamese roots.
 
@@ -50,6 +51,12 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
 
       </p>
       </div>
+      <div class="about-me-container">
+        <a href="#skills" class="btn-more">
+            More About Me <i class="fas fa-arrow-down"></i>
+        </a>
+    </div>
+
     </div>
   </section>
 
@@ -60,7 +67,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
     <div class="skill-category">
       <h3>Programming Languages</h3>
       <!-- C/C++ level 2 -->
-      <div class="skill-item level-2">
+      <div class="skill-item level-2 wow fadeInRight">
         <div class="skill-label">
           <span>C/C++</span>
           <span>Level 2/5</span>
@@ -70,7 +77,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
         </div>
       </div>
       <!-- Python level 4 -->
-      <div class="skill-item level-4">
+      <div class="skill-item level-4 wow fadeInRight ">
         <div class="skill-label">
           <span>Python</span> 
           <span>Level 4/5</span>
@@ -80,7 +87,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
         </div>
       </div>
       <!-- Java level 2 -->
-      <div class="skill-item level-2">
+      <div class="skill-item level-2 wow fadeInRight">
         <div class="skill-label">
           <span>Java</span> 
           <span>Level 2/5</span>
@@ -90,7 +97,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
         </div>
       </div>
       <!-- HTML/CSS level 3 -->
-      <div class="skill-item level-3">
+      <div class="skill-item level-3 wow fadeInRight">
         <div class="skill-label">
           <span>HTML/CSS</span> 
           <span>Level 3/5</span>
@@ -100,7 +107,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
         </div>
       </div>
       <!-- Javascript level 3 -->
-      <div class="skill-item level-3">
+      <div class="skill-item level-3 wow fadeInRight">
         <div class="skill-label">
           <span>Javascript</span> 
           <span>Level 3/5</span>
@@ -110,7 +117,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
         </div>
       </div>
       <!-- SQL level 2 -->
-      <div class="skill-item level-2">
+      <div class="skill-item level-2 wow fadeInRight">
         <div class="skill-label">
           <span>SQL</span> 
           <span>Level 2/5</span>
@@ -121,7 +128,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
       </div>
     </div>
     <!-- Framework -->
-    <div class="skill-category">
+    <div class="skill-category wow fadeInRight">
         <h3>Frameworks</h3>
         <ul class="framework-list">
           <li>Flask</li>
@@ -136,7 +143,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
     <div class="skill-category">
       <h3>Languages</h3>
       <!-- Tiếng Việt: native (level 5) -->
-      <div class="skill-item level-5">
+      <div class="skill-item level-5 wow fadeInRight">
         <div class="skill-label">
           <span>Tiếng Việt</span> 
           <span>Native</span>
@@ -146,7 +153,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
         </div>
       </div>
       <!-- Tiếng Anh level 3 -->
-      <div class="skill-item level-3">
+      <div class="skill-item level-3 wow fadeInRight">
         <div class="skill-label">
           <span>English</span> 
           <span>Level 3/5</span>
@@ -163,7 +170,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
     <h2>My Projects</h2>
     <div class="project-list">
       <!-- Project 1 -->
-      <div class="project">
+      <div class="project wow fadeInUp">
         <img 
           src="assets/images/ezgif-7-11411357af.gif" 
           alt="Project 1"
@@ -175,7 +182,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
         </div>
       </div>
       <!-- Project 2 -->
-      <div class="project">
+      <div class="project wow fadeInUp">
         <img 
           src="assets/images/chatbot.jpg" 
           alt="Project 2"
@@ -187,7 +194,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
         </div>
       </div>
       <!-- Project 3 -->
-      <div class="project">
+      <div class="project wow fadeInUp">
         <img 
           src="assets/images/face_gene.jpg" 
           alt="Project 2"
@@ -199,7 +206,7 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
         </div>
       </div>
       <!-- Project 4 -->
-      <div class="project">
+      <div class="project wow fadeInUp">
         <img 
           src="assets/images/phomosaic.jpg" 
           alt="Project 3"
@@ -251,5 +258,9 @@ Beyond academics, I enjoy working on personal projects, experimenting with new f
   </footer>
 
   <script src="assets/javascript/javascript.js"></script>
+  <script src="assets/javascript/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 </html>
