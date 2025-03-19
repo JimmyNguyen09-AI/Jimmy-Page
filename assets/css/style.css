@@ -219,7 +219,9 @@ section {
   font-weight: bold;
   margin-bottom: 5px;
 }
-
+.skill-label span {
+  color: var(--color-one);
+}
 .progress-bar {
   background: var(--color-two);
   border-radius: 20px;
